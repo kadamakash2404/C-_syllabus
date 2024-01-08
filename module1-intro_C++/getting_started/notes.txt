@@ -1,0 +1,44 @@
+Basic components of a CPP progroma are as follows:
+
+1 : Preprocessor Directives :
+
+2 : Main function :
+
+3 : Statements and Declerations
+
+4 : Comments
+
+*******************************************************************
+
+Compilation process of a C++ program
+
+1 : Preprocessing : 
+                    It handles derictives like #include , #define replacing them with
+                    actual code or modifing source code according to directives
+                    the output is preprocessoed source code .i extension.
+
+2 : Complation : 
+                    preprocessoed code is passed to compiler (eg. g++, GNU compiler).
+                    The compiler checks the syntax and semantics of the code, 
+                    transleting it into a assembly code or an intermediate representation
+                    specific of the target program.
+                    Any errors found during this stage are reported as compiler error.
+
+3 : Assembly :
+                    the compiler generets an assembly code (.s) from the intermidiate 
+                    representation or directly converts the code to object code.
+                    Assembly  code is the human readable representation of the low level
+                    instructions understand by machine.
+
+4 : Linking :       
+                    if the program consist of multiple source files or uses external
+                    libraries, the linker ('ld' in Unix-Like system) combines the output 
+                    files produced by the compiler into a single executable file.
+                    It resolves refrences between different parts of the code and 
+                    links necessery library functions.
+
+5 : EXE output : 
+                    finaly the linked produces the .EXE file from the linked object file.
+                    The file contains binary code that the computers processor can execute.
+
+

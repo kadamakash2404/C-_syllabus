@@ -1,0 +1,25 @@
+Data types in c++ : 
+
+1 : Primary : 
+                1 : int
+                2 : char
+                3 : bool
+                4 : float
+                5 : double
+                6 : void
+                7 : wchar_t
+
+2 : Derived : 
+                1 : function
+                2 : Array
+                3 : pointer
+                4 : Refrence
+
+3 : User defined : 
+                1 : class
+                2 : struct
+                3 : union
+                4 : enum
+                5 : typedef
+
+
